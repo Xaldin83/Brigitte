@@ -88,7 +88,7 @@ header>div>.Reseaux>a>.Orange:hover{
 /* Main */
 
 main>#Section1{
-    background-image: url(/img/Fond_pastille.png);
+    background-image: url(../img/Fond_pastille.png);
     background-position: 104%;
     background-repeat: no-repeat;
     background-size: 900px;
