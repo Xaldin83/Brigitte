@@ -9,6 +9,7 @@
 *{
     margin: 0;
     color: black;
+    font-family: "Noto Sans", sans-serif;
 }
 
 a{
@@ -34,7 +35,8 @@ header>div{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header>div>a>img{
@@ -49,7 +51,6 @@ header>div>.Navigateur{
 header>div>.Navigateur>a{
     font-size: 16px;
     font-weight: 600;
-    font-family: "Noto Sans", sans-serif;
 
     &:hover{
         color: #CC3900;
@@ -65,7 +66,78 @@ header>div>.Reseaux{
     gap:25px
 }
 
+header>div>.Reseaux>a>i{
+    height: 24px;
+}
+
+
 header>div>.Reseaux>a>.Orange:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Footer */
+
+footer>div{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer>div>a>img{
+    width: 180px;
+}
+
+footer>div>article>.Navigateur{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+footer>div>article>.Navigateur>a{
+    font-size: 16px;
+    font-weight: 600;
+
+    &:hover{
+        color: #CC3900;
+    }
+}
+
+footer>div>article>.Navigateur>.Orange:hover{
+    color: black;
+}
+
+footer>div>article{
+    text-align: center;
+}
+
+footer>div>article>p *{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+footer>div>article>p>a:hover{
+    color: #CC3900;
+}
+
+
+
+footer>div>.Reseaux{
+    display: flex;
+    gap:25px
+}
+
+footer>div>.Reseaux>a>i{
+    height: 24px;
+}
+
+
+footer>div>.Reseaux>a>.Orange:hover{
     color: black;
     transition: all 0.3s ease-in-out;
 }
