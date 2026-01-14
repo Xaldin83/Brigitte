@@ -87,14 +87,75 @@ header>div>.Reseaux>a>.Orange:hover{
 
 /* Main */
 
+main>#Section1{
+    background-image: url(/img/Fond_pastille.png);
+    background-position: 1000px;
+    background-repeat: no-repeat;
+    background-size: 900px;
+}
+
+main>#Section1>div{
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 0;
+
+}
+
+main>#Section1>div>article{
+    max-width: 514px;
+}
+
 main>#Section1>div>article>h1{
     display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 main>#Section1>div>article>h1>span>hr{
     margin-top: 10px;
+    margin-right: 10px;
     width: 50px;
-    color: #CC3900;
+    height: 1px;
+    background-color: #CC3900;
+    border: none;
 
+}
+
+main>#Section1>div>article>h2{
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+main>#Section1>div>article>h3{
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 7px;
+    
+}
+
+main>#Section1>div>article>p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top:10px ;
+    margin-bottom: 50px;
+}
+
+
+main>#Section1>div>article>a{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #FBBBCD;
+    padding: 13px 25px;
+    
+}
+
+
+main>#Section1>div>img{
+    max-width: 552px;
 }
 
 
