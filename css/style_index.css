@@ -85,6 +85,18 @@ header>div>.Reseaux>a>.Orange:hover{
     transition: all 0.3s ease-in-out;
 }
 
+/* Main */
+
+main>#Section1>div>article>h1{
+    display: flex;
+}
+main>#Section1>div>article>h1>span>hr{
+    margin-top: 10px;
+    width: 50px;
+    color: #CC3900;
+
+}
+
 
 /* Footer */
 
