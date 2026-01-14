@@ -380,6 +380,54 @@ main>#Section4>div>article>div>div{
     gap: 20px;
 }
 
+main>#Section5{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main>#Section5>#Section5_div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+main>#Section5>#Section5_div1>a{
+    font-size: 16px;
+    padding: 10px 26px;
+    border: #FBBBCD 1px solid;
+
+    &:hover{
+        background-color: #FBBBCD;
+    }
+}
+
+main>#Section5>#Section5_div2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main>#Section5>#Section5_div2>article>img{
+    max-width: 464px;
+    width: 100%;
+    object-fit: cover;
+}
+
+main>#Section5>#Section5_div2>article>h3{
+    font-size: 18px;
+}
+main>#Section5>#Section5_div2>article>h4{
+    font-size: 14px;
+}
+main>#Section5>#Section5_div2>article>p{
+    max-width: 460;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+main>#Section5>#Section5_div2>article>a{
+    font-size: 16px;
+    font-weight: 600;
+}
 
 /* Footer */
 
