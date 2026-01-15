@@ -107,7 +107,7 @@ main>#Section1>div{
     grid-template-columns: repeat(2,max-content);
     justify-content: space-between;
     align-items: center;
-    padding: 200px 0;
+    padding: 130px 0;
 
 }
 
@@ -453,7 +453,7 @@ main>#Section6>div{
 main>#Section6>div *{
     color: white;
     max-width: 689px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 main>#Section6>div>h2{
@@ -477,6 +477,10 @@ main>#Section6>div>a{
 }
 
 /* Footer */
+
+footer{
+    padding-bottom: 50px;
+}
 
 footer>div{
     max-width: 1440px;
