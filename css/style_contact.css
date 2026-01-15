@@ -139,6 +139,7 @@ main>div>form{
 
 main>div>form>div{
     margin-top: 20px;
+    margin-left: 10px;
     display: grid;
     gap: 10px;
     grid-template-columns: 445px;
@@ -244,4 +245,59 @@ footer>div>.Reseaux>a>i{
 footer>div>.Reseaux>a>.Orange:hover{
     color: black;
     transition: all 0.3s ease-in-out;
+}
+
+/* Responsive */
+
+@media screen and (max-width:1024px){
+
+    header>div>.Navigateur{
+        display: none;
+    }
+
+    header>div>.Reseaux{
+        display: none;
+    }
+
+    footer>div>article>.Navigateur{
+        display: none;
+    }
+
+    header>div{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .fa-bars{
+        display: block;
+        margin: auto;
+    }
+
+    main>div>article{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:767px){
+    main>div{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    footer>div{
+        justify-content: center
+    }
+    footer>div>a{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:475px){
+    main>div>form>div{
+        grid-template-columns: 280px;
+    }
 }
