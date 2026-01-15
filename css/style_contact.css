@@ -90,6 +90,86 @@ header>div>.Reseaux>a>.Orange:hover{
 }
 
 
+/* Main */
+
+main{
+    margin: 50px 0;
+}
+
+main>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    margin: auto;
+}
+
+main>div>article{
+    max-width: 550px;
+}
+
+main>div>article>h1{
+    font-size: 45px
+}
+
+main>div>article>p{
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+main>div>article>div{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+main>div>article>div>i{
+    color: #CC3900;
+    padding-top: 10px;
+}
+
+main>div>article>div>p{
+    font-size:20px ;
+}
+
+main>div>form{
+    background-image: url(../img/Fond_pastille.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+main>div>form>div{
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 445px;
+    
+}
+
+main>div>form>div>input, main>div>form>div>textarea, button{
+    border: 1px solid #818A91;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+button{
+    color: white;
+    background-color: #FBBBCD;
+    
+    border: 1px solid #FBBBCD;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: white;
+        transition: all 0.3s ease-in-out;
+        color: #FBBBCD;
+    }
+}
+
+textarea{
+    resize: none;
+}
+
+
 /* Footer */
 
 footer{
@@ -165,4 +245,3 @@ footer>div>.Reseaux>a>.Orange:hover{
     color: black;
     transition: all 0.3s ease-in-out;
 }
-    
