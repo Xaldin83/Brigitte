@@ -429,6 +429,53 @@ main>#Section5>#Section5_div2>article>a{
     font-weight: 600;
 }
 
+/* Section 6 */
+
+main>#Section6{
+    margin-top: 50px;
+    background-color: #CC3900;
+    height: 553px;
+    align-items: center;
+    display: flex;
+}
+
+main>#Section6>div{
+    max-width: 800px;
+    margin: auto;
+    height: 333px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main>#Section6>div *{
+    color: white;
+    max-width: 689px;
+    margin-bottom: 30px;
+}
+
+main>#Section6>div>h2{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+main>#Section6>div>p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+main>#Section6>div>a{
+    font-size: 16px;
+    padding: 10px 26px;
+    border: #FBBBCD 1px solid;
+
+    &:hover{
+        background-color: #FBBBCD;
+    }
+}
+
 /* Footer */
 
 footer>div{
