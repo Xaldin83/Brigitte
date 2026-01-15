@@ -108,7 +108,7 @@ main>#Section1>div{
     max-width: 1440px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,max-content);
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     align-items: center;
     padding: 130px 0;
@@ -160,6 +160,10 @@ main>#Section1>div>article>a{
     font-weight: 500;
     border: 1px solid #FBBBCD;
     padding: 13px 25px;
+
+    &:hover{
+        background-color: #FBBBCD;
+    }
     
 }
 
@@ -282,6 +286,7 @@ main>#Section3>#Section3_div1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 main>#Section3>#Section3_div1>h2{
     font-size: 45px;
@@ -409,6 +414,7 @@ main>#Section5>#Section5_div1>a{
 main>#Section5>#Section5_div2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 main>#Section5>#Section5_div2>article>img{
@@ -417,7 +423,7 @@ main>#Section5>#Section5_div2>article>img{
     object-fit: cover;
 }
 
-main>#Section5>#Section5_div2>article>h3{
+main>#Section5>#Section5_div2>article>a>h3{
     font-size: 18px;
 }
 main>#Section5>#Section5_div2>article>h4{
@@ -606,5 +612,82 @@ footer>div>.Reseaux>a>.Orange:hover{
     main>#Section4>div{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+
+    main>#Section2>div>div>article>p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header>div{
+        grid-template-columns: 1fr;
+    }
+    
+
+    main>#Section1>div{
+        grid-template-columns: 1fr;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    main>#Section1>div>article{
+        text-align: center;
+    }
+
+    main>#Section2>div{
+        grid-template-columns: 1fr;
+    }
+
+    main>#Section2>div>div{
+        max-height: max-content;
+    }
+
+    main>#Section2>div>div>article{
+        max-height: max-content;
+        padding-bottom: 30px;
+    }
+
+    main>#Section2>div>#Div_Peinture{
+        margin: 0;
+    }
+
+    main>#Section2>div>div *{
+        margin: 0;
+    }
+
+
+    main>#Section3>#Section3_div1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main>#Section3>#Section3_div2{
+        grid-template-columns: 1fr;
+    }
+
+    main>#Section4>div{
+        grid-template-columns: 1fr;
+    }
+
+    main>#Section5>#Section5_div1{
+        margin-bottom: 10px;
+    }
+
+    main>#Section5>#Section5_div1>a{
+        align-self: center;
+        text-align: center;
+    }
+
+    main>#Section5>#Section5_div2{
+        grid-template-columns: 1fr;
+    }
+
+    main>#Section6{
+        height:620px;
+    }
+
+    footer>div{
+        justify-content: center;
     }
 }
