@@ -91,6 +91,34 @@ header>div>.Reseaux>a>.Orange:hover{
 }
 
 
+/* Main */
+main>div{
+    max-width: 1420px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+main>div>h1{
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+main>div>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+main>div>div>article>h3, main>div>div>article>p{
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 292px;
+}
+
+main>div>div>article>#oeil{
+    margin-bottom: 75px;
+}
 
 /* Footer */
 
@@ -166,4 +194,53 @@ footer>div>.Reseaux>a>i{
 footer>div>.Reseaux>a>.Orange:hover{
     color: black;
     transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width:1024px){
+
+    header>div>.Navigateur{
+        display: none;
+    }
+
+    header>div>.Reseaux{
+        display: none;
+    }
+
+    footer>div>article>.Navigateur{
+        display: none;
+    }
+
+    header>div{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .fa-bars{
+        display: block;
+        margin: auto;
+    }
+
+    main>div>div{
+    grid-template-columns: repeat(2,1fr);
+    }
+
+    main>div>div>article{
+    text-align: center;
+    }
+}
+
+    @media screen and (max-width:767px){
+    footer>div{
+        justify-content: center
+    }
+    footer>div>a{
+        display: none;
+    }
+
+    main>div>div{
+    grid-template-columns: 1fr;
+    }
 }
