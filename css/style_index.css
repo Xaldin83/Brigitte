@@ -330,7 +330,7 @@ main>#Section3>#Section3_div2>article>p{
 /* Section 4 */
 
 main>#Section4{
-    max-width: 1440px;
+    background-color: #F7F7F7;
     margin: auto;
     margin-top: 50px;
 }
@@ -342,6 +342,7 @@ main>#Section4>h2{
 }
 
 main>#Section4>div{
+    max-width: 1440px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
