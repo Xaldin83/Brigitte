@@ -110,6 +110,10 @@ main>div>div{
     gap: 20px;
 }
 
+main>div>div>article{
+    text-align: center;
+}
+
 main>div>div>article>h3, main>div>div>article>p{
     margin: auto;
     margin-bottom: 10px;
